@@ -1,0 +1,21 @@
+vim.opt.relativenumber = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.cursorline = true
+vim.opt.termguicolors = true
+vim.opt.scrolloff = 8
+vim.opt.signcolumn = "yes"
+vim.opt.number = true
+vim.opt.mouse = "nv"
+vim.opt.swapfile = false
+vim.opt.clipboard = "unnamedplus"
+
+vim.opt.undofile = true -- undo persiste entre sessões (muito útil)
+vim.opt.ignorecase = true -- busca case-insensitive
+vim.opt.smartcase = true -- mas respeita maiúscula se você digitar
+vim.opt.splitright = true -- split vertical abre à direita
+vim.opt.splitbelow = true -- split horizontal abre abaixo
+vim.opt.wrap = false -- sem quebra de linha visual
+vim.opt.updatetime = 250 -- tempo pra CursorHold (gitsigns, hover LSP)
+vim.opt.hlsearch = false -- não fica destacando após busca terminar
